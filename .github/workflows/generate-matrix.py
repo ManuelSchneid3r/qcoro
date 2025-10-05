@@ -66,7 +66,7 @@ def get_os_for_platform(platform: str) -> str:
     if platform == "linux":
         return "ubuntu-latest"
     if platform == "macos":
-        return "macos-13"
+        return "macos-15"
     raise RuntimeError(f"Invalid platform '{platform}'.")
 
 
