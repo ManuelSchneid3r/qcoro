@@ -6,7 +6,7 @@ SPDX-License-Identifier: GFDL-1.3-or-later
 
 # QNetworkReply
 
-{{ doctable("Network", "QCoroNetworkReply", ("network/qiodevice", "QCoroIODevice")) }}
+{{ doctable("Network", "QCoroNetworkReply", ("core/qiodevice", "QCoroIODevice")) }}
 
 [`QNetworkReply`][qdoc-qnetworkreply] has two asynchronous aspects: one is waiting for the
 reply to finish, and one for reading the response data as they arrive. QCoro supports both.
